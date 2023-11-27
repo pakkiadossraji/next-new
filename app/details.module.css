@@ -1,0 +1,207 @@
+.nav{
+    padding: 8px;
+    width: 100%;
+    height: 100px;
+    box-shadow: 8px 8px 16px 0px rgba(0, 0, 0, 0.04)
+}
+.noscroll{
+    overflow: hidden;
+}
+.detimgflex{
+    height: fit-content;
+    position: relative;
+    z-index: 9;
+}
+.detImgCont{
+    width: 521px;
+    /* position: sticky;
+    top: 0px */
+}
+.pdetFlex{
+    display: flex;
+    justify-content: center;
+    padding: 0px 20px;
+    margin-top: 64px;
+}
+.pddetH1{
+    line-height: 32px;
+    letter-spacing: 0.48px
+}
+.detQty{
+    color: #267F24;
+}
+.varientBtn{
+    padding: 8px 15px;
+    border: 0px solid #fff;
+}
+.customInput{
+    padding: 10px 16px;
+}
+.checkAvilBtn{
+    box-sizing: border-box;
+    padding: 10px 16px;
+}
+.verifyBtn{
+    height: 38px;
+    padding: 8px 40px !important;
+}
+.detailsImage{
+    width: 100%;
+    max-width: 100%;
+    block-size: auto;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    position: relative;
+    cursor: zoom-in;
+}
+.toggleModel{
+    position: fixed;
+    display: none;
+    top: 50%;
+    padding: 48px;
+    background-color: #ffffff;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+}
+.closeToggle{
+    position: relative;
+    bottom: 20px;
+    right: 2px;
+    padding: 4px;
+    float: right;
+    cursor: pointer;
+    display: block;
+}
+.socialFlex{
+    flex-wrap: wrap;
+}
+.starBorder{
+    width: 155px;
+}
+.starno{
+    padding: 8px 0px;
+    margin-left: auto;
+    margin-right: 4px;
+}
+.starRateCount{
+    background: #EAEAEA;
+    padding: 4px 8px;
+}
+.buttonBar{
+    position: fixed;
+    bottom: 0px;
+    width: 100vw;
+    background-color: #fff;
+    padding: 24px 0px;
+    box-shadow: 10px 9px 48px rgba(4, 32, 52, 0.1);
+    z-index: 9;
+}
+.counterBtn{
+    width: 40px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #EAEAEA !important;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
+.counterDisplay{
+    height: 40px;
+    width: 100px;
+}
+.detbtn{
+    padding: 8px 64px;
+    height: 40px;
+}
+.zoom{
+    position: fixed;
+    top: 50%;
+    width: 659px !important;
+    height: fit-content;
+    z-index: 1001;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: zoom-out;
+}
+.overlayClose{
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0,0,0,0.4);
+    visibility: hidden;
+    z-index: 1000;
+}
+.detArrow{
+    border-width: 0px 2px 2px 0px;
+    border-style: solid;
+    border-color: #202020;
+    width: 7px;
+    height: 7px;
+    display: block;
+    transform: rotate(45deg);
+    transition: all 200ms ease;
+}
+.accordionOpen{
+    border-top: 1px solid #eaeaea;
+    padding: 24px 0px;
+    position: relative;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    background: none;
+    outline: none;
+}
+.accheaderBtn{
+    font-family: '__Jost_f47db6';
+}
+.starRadio{
+    cursor: pointer;
+    content: "";
+    width: 16px;
+    height: 16px;
+    border: 0.1px solid #C0C0C0;
+    background: #fff;
+    line-height: 1.1;
+    border-radius: 0px;
+    margin-right: 4px;
+    transform: translate(0px, 2px);
+    opacity: 0;
+    z-index: -999;
+    position: relative;
+}
+.reviewStar{
+    color: #eaeaea;
+    font-size: 24px;
+    margin-left: -18px;
+}
+.dettextReview{
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-box-pack: center;
+}
+.dettextReview > input{
+    font-size: 16px;
+    font-weight: 400;
+    box-sizing: border-box;
+    padding: 8px;
+    width: 100%;
+    height: 40px;
+    border-radius: 0px;
+    padding: 0px 8px;
+    color: #C0C0C0;
+    background: #FFFFFF;
+    border: 1px solid #EAEAEA;
+}
+.textarea{
+    padding: 12px 8px;
+    border: 1px solid #eaeaea;
+}
+@media (min-width: 1080px){
+    .prodDesc{
+        max-width: 586px;
+    }
+}
