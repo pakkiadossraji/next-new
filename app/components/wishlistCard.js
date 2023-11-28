@@ -20,7 +20,7 @@ const WishlistCard =()=>{
                         </Link>
                     </div> 
                         <div className={`${wishstyles.wishwt} p16`}>
-                            <div className="dflex justifyspacebetween">
+                            <div className={wishstyles.wishgrid}>
                                 <div>
                                     <div>
                                         <p className="fw400 fs16 txtellipsis">
@@ -34,7 +34,7 @@ const WishlistCard =()=>{
 
                                 </div>
                                 <div className="ml64">
-                                    <div className="dflex flexcolumn gap40">
+                                    <div className={`${wishstyles.wishend} dflex flexcolumn gap40`}>
                                         <button className={`${wishstyles.wishCart} btnprimary bg20 clrfff`}>ADD TO CART</button>
                                         <div>
                                             <button className= {`${wishstyles.removeBtn} fw500 fs14 clr69 uppercase bnone bordernone`}>Remove</button>
