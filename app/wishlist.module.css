@@ -1,7 +1,11 @@
 
 .wishlistItem{
     width: 780px;
+    height: 149px;
 }
 .wishwt{
     width: 100%;
+}
+.removeBtn{
+    background: transparent;
 }
